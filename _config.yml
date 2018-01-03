@@ -1,43 +1,27 @@
-title: Hello, world! I'm David Freeman
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-permalink: ':title/'
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://iodbo.win" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+# This is the default format.
+# For more see: http://jekyllrb.com/docs/permalinks/
+permalink: /:title
+# https://help.github.com/articles/migrating-your-pages-site-from-maruku
+markdown: redcarpet
 
-# Author Settings
-author: David Freeman # add your name
-author-img: david-freeman.jpg # add your photo
-about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
-twitter: # add your Twitter handle
-facebook: # add your Facebook handle
-github: artemsheludko # add your Github handle
-linkedin: # add your Linkedin handle
-email: # add your Email address
+highlighter: pygments
+paginate: 20 # pagination based on number of posts
+paginate_path: "page/:num"
 
-# Disqus
-discus-identifier: mr-brown # add your discus identifier
-
-# Tracker
-analytics: # Google Analytics
-
-# Build Settings
-markdown: kramdown
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jemoji
-
-paginate: 8
-paginate_path: "/page/:num"
-
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+# These paths are to the main pages Jekyll-Bootstrap ships with.
+# Some JB helpers refer to these paths; change them here if needed.
+#
 categories_path : categories.html
 tags_path : tags.html
-logo : /assets/img/david-freeman.jpg
+
+#BASE_PATH : http://blog.ankanbiswas.in/uno-dbyll
+BASE_PATH : http://goileo.top
+
+description : 深沉的意志，恢宏的想象和炽热的情感
+title : Goileo Lee
+logo : /assets/images/avatar.jpg
+#cover : /assets/images/background-cover.jpg
+
 
 author:
   name: Goileo Lee
@@ -49,4 +33,4 @@ author:
   facebook: goileolee
   googleplus: +goileolee
   bio: "Hi, 我是goileolee"
-  uno-dbyll: /assets/img/david-freeman.jpg
+  uno-dbyll: /assets/images/avatar.jpg
