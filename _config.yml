@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 permalink: ':title/'
-baseurl: "/_posts" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://iodbo.win" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
@@ -37,7 +37,7 @@ paginate_path: "/page/:num"
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 categories_path : categories.html
 tags_path : tags.html
-logo : /assets/images/avatar.jpg
+logo : /assets/img/david-freeman.jpg
 
 author:
   name: Goileo Lee
@@ -49,4 +49,4 @@ author:
   facebook: goileolee
   googleplus: +goileolee
   bio: "Hi, 我是goileolee"
-  uno-dbyll: /assets/images/avatar.jpg
+  uno-dbyll: /assets/img/david-freeman.jpg
